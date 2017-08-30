@@ -1,32 +1,41 @@
-# Prerequisites
-*.d
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
 *.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+#[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+!strain_based_dynamics.exe
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
+#Xcode files
+xcuserdata
+*.xccheckout
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+#emacs
+*~
 
-# Executables
-*.exe
-*.out
-*.app
